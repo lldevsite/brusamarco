@@ -42,6 +42,7 @@ a {
     all: unset;
     cursor: pointer;
 }
+
 /* GLOBAL CLASSES */
 .center {
   display: flex;
