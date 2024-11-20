@@ -1,0 +1,78 @@
+/* GLOBAL DEFINITION */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+/* GLOBAL CLASSES */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.text-to-right {
+  text-align: end;
+}
+
+.transparent {
+  opacity: 0%;
+}
