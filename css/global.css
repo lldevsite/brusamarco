@@ -118,6 +118,10 @@ a {
     opacity: 0%;
 }
 
+.spacer{
+    height: 120px;
+}
+
 /* PER TITOLI COME STUDIO BRUSA */
 .title {
     font-family: 'Montserrat';
@@ -171,5 +175,10 @@ a {
         background-color: #000000;
         opacity: 40%;
         margin: 0;
+    }
+
+    img{
+        width: 28px;
+        height: 28px;
     }
 }
