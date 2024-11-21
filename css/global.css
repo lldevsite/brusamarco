@@ -1,41 +1,48 @@
 /* GLOBAL DEFINITION */
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html,
 body {
-  position: relative;
-  overflow-x: hidden;
+    position: relative;
+    overflow-x: hidden;
 }
 
 h1 {
-  font-family: "Spectral";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
+    font-family: "Spectral";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 h2 {
-  font-family: "Spectral";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
+    font-family: "Spectral";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
 }
 
 h3 {
-  font-family: "Spectral";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
+    font-family: "Spectral";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 p {
-  font-family: "Spectral";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+    font-family: "Spectral";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 a {
@@ -44,36 +51,125 @@ a {
 }
 
 /* GLOBAL CLASSES */
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-right {
+    justify-content: flex-end;
+}
+
+.justify-left {
+    justify-content: flex-start;
+}
+
+.align-right {
+    align-items: flex-end;
+}
+
+.align-left {
+    align-items: flex-start;
+}
+
+
+
 .column {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .row {
-  flex-direction: row;
-}
-
-.right {
-  justify-content: flex-end;
-}
-
-.left {
-  justify-content: flex-start;
+    flex-direction: row;
 }
 
 .row-reverse {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+
 
 .text-to-right {
-  text-align: end;
+    text-align: end;
 }
 
+.text-to-left {
+    text-align: start;
+}
+
+.text-to-center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
 .transparent {
-  opacity: 0%;
+    opacity: 0%;
+}
+
+/* PER TITOLI COME STUDIO BRUSA */
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    letter-spacing: 0.2em;
+}
+
+
+/* NAVBAR */
+.navbar-section {
+    background: linear-gradient(180deg, rgba(219, 202, 182, 0.4) -95.83%, rgba(219, 202, 182, 0) 100.83%);
+    color: var(--CAROB);
+    padding: 0 60px;
+    height: 95px;
+}
+
+.navbar-links {
+    gap: 60px;
+}
+
+.navbar-social {
+    gap: 30px;
+    filter: brightness(0) saturate(100%) invert(32%) sepia(50%) saturate(357%) hue-rotate(358deg) brightness(102%) contrast(91%);
+}
+
+/* FOOTER */
+.footer-section {
+    padding: 50px 0;
+    gap: 35px;
+
+    .title {
+        font-size: 28px;
+    }
+
+    h4 {
+        opacity: 60%;
+    }
+}
+
+.footer-social {
+    gap: 30px;
+    opacity: 60%;
+    position: relative;
+
+    .line {
+        flex: 1;
+        height: 1px;
+        width: 140px;
+        background-color: #000000;
+        opacity: 40%;
+        margin: 0;
+    }
 }
