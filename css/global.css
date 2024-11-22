@@ -36,13 +36,14 @@ h4 {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    opacity: 40%;
 }
 
 p {
     font-family: "Spectral";
     font-style: normal;
     font-weight: 400;
-    font-size: 160px;
+    font-size: 16px;
 }
 
 a {
@@ -175,10 +176,6 @@ button {
 
     .title {
         font-size: 28px;
-    }
-
-    h4 {
-        opacity: 60%;
     }
 }
 

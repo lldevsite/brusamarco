@@ -10,3 +10,26 @@
 .main-buttons{
     gap: 30px;
 }
+
+.price-section{
+    padding: 40px 200px;
+    gap: 60px;
+
+    h1{
+        padding: 0 90px;
+    }
+}
+
+.price-container{
+    gap: 80px;
+}
+
+.price-card{
+    gap: 10px;
+}
+
+.price-icon{
+    border-radius: 100%;
+    background: var(--PISTACHE);
+    padding: 30px;
+}
