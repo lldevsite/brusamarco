@@ -133,6 +133,10 @@ button {
     text-align: justify;
 }
 
+.semi-bold{
+    font-weight: 600;
+}
+
 
 .transparent {
     opacity: 0%;
