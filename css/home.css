@@ -191,9 +191,9 @@
     gap: 60px;
 
     .collaboration-container {
-        padding: 0 250px;
+        padding: 0 240px;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 50px;
 
         .collaboration-card {
             box-sizing: border-box;
