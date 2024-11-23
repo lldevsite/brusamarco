@@ -1,57 +1,74 @@
 .main-section {
-    height: calc(100vh - 95px);
+  height: calc(100vh - 95px);
 }
 
 .main-container {
-    height: 270px;
-    padding: 0 0 0px 0;
+  height: 270px;
+  padding: 0 0 0px 0;
 }
 
 .main-buttons {
-    gap: 30px;
+  gap: 30px;
 }
 
 .price-section {
-    padding: 40px 200px;
-    gap: 40px;
+  padding: 40px 200px;
+  gap: 40px;
 
-    h1 {
-        padding: 0 90px;
-    }
+  h1 {
+    padding: 0 90px;
+  }
 
-    p {
-        padding: 0 0 20px 0;
-    }
+  p {
+    padding: 0 0 20px 0;
+  }
 }
 
 .price-container {
-    gap: 80px;
-    padding: 20px 0 10px 0;
+  gap: 80px;
+  padding: 20px 0 10px 0;
 }
 
 .price-card {
-    gap: 10px;
+  gap: 10px;
 }
 
 .price-icon {
-    border-radius: 100%;
-    background: var(--PISTACHE);
-    padding: 30px;
-    border-bottom: 5px;
+  border-radius: 100%;
+  background: var(--PISTACHE);
+  padding: 30px;
+  border-bottom: 5px;
 }
 
 .studio-section {
-    background: var(--ALMOND);
-    padding: 40px 140px;
-    padding-bottom: 80px;
-    gap: 40px;
+  background: var(--ALMOND);
+  padding: 40px 140px;
+  padding-bottom: 80px;
+  gap: 40px;
 
-    h1{
-        width: 100%;
-    }
+  h1 {
+    width: 100%;
+  }
 }
 
 .studio-img {
+  position: relative;
+  width: min-content;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 80px;
+  img {
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+  }
+}
+/* .studio-img {
     position: relative;
     height: 420px;
     width: 50%;
@@ -77,10 +94,72 @@
         bottom: 0;
         left: 0;
     }
+} */
+
+.studio-text {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 30px;
 }
 
-.studio-text{
-    box-sizing: border-box;
+.description-section {
+  padding: 100px 140px;
+  .foto {
+    position: relative;
     width: 50%;
-    padding: 0 30px;
+    img {
+      height: 386px;
+      width: 386px;
+    }
+  }
+  .description-text {
+    width: 50%;
+    .description {
+      width: 500px;
+    }
+    .show-more {
+      width: 500px;
+      position: relative;
+      .show-more-button {
+        position: absolute;
+        right: 4px;
+        gap: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.social-section {
+  background-image: url("../images/sfondo_social.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  width: 100%;
+  padding: 40px 0px;
+  .social-container {
+    background-color: var(--CAROB);
+    max-height: 80%;
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 40px;
+    .card-container {
+        gap: 30px;
+      .card {
+        width: 20%;
+        gap: 10px;
+        p {
+          width: 50%;
+          text-align: center;
+        }
+      }
+      .line{
+        width: 1px;
+        height: 90%;
+        background-color: red;
+      }
+    }
+  }
 }
