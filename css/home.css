@@ -51,7 +51,7 @@
   }
 }
 
-.studio-img {
+/* .studio-img {
   position: relative;
   width: min-content;
   display: grid;
@@ -67,34 +67,34 @@
     width: 250px;
     border-radius: 10px;
   }
-}
-/* .studio-img {
-    position: relative;
-    height: 420px;
-    width: 50%;
-
-    img{
-        position: absolute;
-        height: 180px;
-    }
-
-    img:nth-child(1) {
-        top: 0;
-        left: 0;
-        transform: translateX(10%);
-    }
-
-    img:nth-child(2) {
-        top: 50%;
-        left: 30%;
-        transform: translateY(-50%);
-    }
-
-    img:nth-child(3) {
-        bottom: 0;
-        left: 0;
-    }
 } */
+.studio-img {
+  position: relative;
+  height: 420px;
+  width: 50%;
+
+  img {
+    position: absolute;
+    height: 180px;
+  }
+
+  img:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform: translateX(10%);
+  }
+
+  img:nth-child(2) {
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+  }
+
+  img:nth-child(3) {
+    bottom: 0;
+    left: 0;
+  }
+}
 
 .studio-text {
   box-sizing: border-box;
@@ -136,30 +136,50 @@
   background-size: cover;
   height: fit-content;
   width: 100%;
-  padding: 40px 0px;
+  padding: 80px 0px;
   .social-container {
-    background-color: var(--CAROB);
+    background-color: var(--PISTACHE);
     max-height: 80%;
     height: fit-content;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 60px 40px 90px 40px;
     gap: 40px;
     .card-container {
-        gap: 30px;
+      width: 90%;
+      justify-content: space-between;
       .card {
-        width: 20%;
-        gap: 10px;
+        width: 30%;
+        gap: 20px;
         p {
-          width: 50%;
           text-align: center;
         }
       }
-      .line{
+      .line {
         width: 1px;
-        height: 90%;
-        background-color: red;
+        height: 200px;
+        background-color: black;
       }
+    }
+  }
+}
+.collaboration-section {
+  padding: 100px;
+  .collaboration-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 50px;
+    gap : 50px;
+    .collaboration-card {
+      width: fit-content;
+      border: 1px solid var(--ALMOND);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+      gap: 50px;
     }
   }
 }
