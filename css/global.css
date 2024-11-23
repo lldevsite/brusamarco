@@ -39,6 +39,14 @@ h4 {
     opacity: 40%;
 }
 
+h5 {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 60%;
+}
+
 p {
     font-family: "Spectral";
     font-style: normal;
@@ -133,7 +141,7 @@ button {
     text-align: justify;
 }
 
-.semi-bold{
+.semi-bold {
     font-weight: 600;
 }
 
@@ -144,6 +152,14 @@ button {
 
 .spacer {
     height: 120px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
 }
 
 /* PER TITOLI COME STUDIO BRUSA */
