@@ -191,20 +191,34 @@
     gap: 60px;
 
     .collaboration-container {
-        padding: 0 240px;
+        padding: 0 100px;
         flex-wrap: wrap;
         gap: 50px;
 
         .collaboration-card {
+            position: relative;
             box-sizing: border-box;
             width: 370px;
             height: 280px;
             padding: 30px 40px;
             margin: 0 5px;
             border: 1px solid var(--CAROB);
-            box-shadow: 4px 4px 0px 1px var(--ALMOND);
+            /* box-shadow: 4px 4px 0 1px var(--ALMOND); */
             border-radius: 12px;
             gap: 20px;
+            background-color: white;
+        }
+
+        .collaboration-card::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: translate(5px, 5px);
+            border: 2px solid var(--ALMOND);
+            background: transparent;
+            z-index: -1;
+            border-radius: 12px;
         }
     }
 
