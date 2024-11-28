@@ -187,6 +187,15 @@ button {
 .navbar-social {
     gap: 30px;
     filter: brightness(0) saturate(100%) invert(32%) sepia(50%) saturate(357%) hue-rotate(358deg) brightness(102%) contrast(91%);
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}   
+
+.mobile-menu{
+    display: none;
 }
 
 /* FOOTER */
@@ -217,4 +226,47 @@ button {
         width: 28px;
         height: 28px;
     }
+}
+
+@media (max-width: 768px) {
+
+    .navbar-section{
+        padding: 0 30px;
+    }
+
+    .navbar-social{
+        img{
+            width: 30px;
+        }
+    }
+
+    .mobile-menu{
+        display: block;
+        z-index: 5;
+    }
+
+    .navbar-links{
+        display: none;
+
+        overflow: hidden;
+
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+
+        background: #ffffff5c;
+        backdrop-filter: blur(16px);
+
+        h2{
+            font-size: 24px;
+        }
+    }
+
 }

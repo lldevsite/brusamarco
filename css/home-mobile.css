@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+
+    .main-container{
+        gap: 100px;
+        padding-bottom: 120px;
+    }
+    
+    .main-buttons{
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 120px;
+    }
+}
