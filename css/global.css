@@ -246,7 +246,7 @@ button {
     }
 
     .navbar-links{
-        display: none;
+        /* display: none; */
 
         overflow: hidden;
 
@@ -263,9 +263,27 @@ button {
 
         background: #ffffff5c;
         backdrop-filter: blur(16px);
+        animation-duration: 0.3s;
+        opacity: 0%;
 
         h2{
             font-size: 24px;
+        }
+    }
+
+    .fadein{
+        animation: Fade 0.3s forwards;
+    }
+    .fadeout{
+        animation: Fade reverse 0.3s forwards;
+    }
+
+    @keyframes Fade {
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
         }
     }
 

@@ -8,11 +8,15 @@ window.addEventListener('load', () => {
         let src = oc.src.split('/');
 
         if (src[src.length - 1] == 'hamburger.svg') {
-            document.getElementsByClassName('navbar-links')[0].style.display = 'flex';
+            document.getElementsByClassName('navbar-links')[0].classList.remove('fadeout');
+            void document.getElementsByClassName('navbar-links')[0].offsetWidth;
+            document.getElementsByClassName('navbar-links')[0].classList.add('fadein');
             oc.src = './svg/cross.svg';
         }
         else {
-            document.getElementsByClassName('navbar-links')[0].style.display = 'none';
+            document.getElementsByClassName('navbar-links')[0].classList.remove('fadein');
+            void document.getElementsByClassName('navbar-links')[0].offsetWidth;
+            document.getElementsByClassName('navbar-links')[0].classList.add('fadeout');
             oc.src = './svg/hamburger.svg';
         }
 
