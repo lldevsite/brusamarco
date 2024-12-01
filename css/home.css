@@ -22,11 +22,18 @@
     p {
         padding: 0 0 20px 0;
     }
+    .line{
+        width: 900px;
+        height: 1px;
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='1' stroke-dasharray='8%2c8' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+        opacity: 40%;
+    }
 }
 
 .price-container {
     gap: 80px;
     padding: 20px 0 10px 0;
+    flex-wrap: wrap;
 }
 
 .price-card {
