@@ -120,15 +120,15 @@
         width: 50%;
     }
 
-    .description-text {
-        width: 50%;
-        padding: 0 100px 0 0;
+}
+.description-text {
+    width: 50%;
+    padding: 0 100px 0 0;
 
-        p {
-            padding: 0 0 0 20px;
-        }
-
+    p {
+        padding: 0 0 0 20px;
     }
+
 }
 
 /* questa deve essere globale tispetto alla home page */

@@ -1,58 +1,54 @@
-@media (max-width: 768px){
-
-    .main-container{
+@media (max-width: 768px) {
+    .main-container {
         gap: 100px;
         padding-bottom: 120px;
     }
-    
-    .main-buttons{
+
+    .main-buttons {
         flex-direction: column;
         gap: 15px;
         padding-bottom: 120px;
     }
 
-    .price-section{
+    .price-section {
         padding: 40px 0 100px 0;
         gap: 20px;
 
-        h1{
+        h1 {
             padding: 0 30px;
             text-align: left;
         }
-        p{
+        p {
             padding: 0 30px 30px 30px;
             text-align: justify;
         }
 
-        .line{
+        .line {
             width: calc(100dvw - 60px);
         }
     }
 
-
-    .price-container{
+    .price-container {
         padding: 30px 30px;
         gap: 40px;
     }
 
-    .price-card{
+    .price-card {
         text-align: center;
         text-wrap: wrap;
         width: 120px;
     }
 
-
-
-    .studio-section{
+    .studio-section {
         padding: 40px 30px;
         padding-bottom: 80px;
     }
-    .studio-container{
+    .studio-container {
         flex-direction: column;
         height: min-content;
         gap: 50px;
     }
-    .studio-img{
+    .studio-img {
         width: 100%;
         height: 180px;
 
@@ -60,20 +56,62 @@
             height: 100px;
         } */
 
-        img:nth-child(1){
+        img:nth-child(1) {
             width: 100%;
             transform: translate(0, 0);
         }
-        img:nth-child(2){
+        img:nth-child(2) {
             display: none;
         }
-        img:nth-child(3){
+        img:nth-child(3) {
             display: none;
         }
     }
 
-    .studio-text{
+    .studio-text {
         width: 100%;
         padding: 0;
+    }
+
+    .description-section {
+        flex-direction: column;
+        padding: 60px 30px;
+        gap: 30px;
+    }
+
+    .description-text {
+        width: 100%;
+        padding: 0;
+        p {
+            padding: 0;
+        }
+    }
+
+    .social-section {
+        padding: 0;
+        .social-container {
+            padding: 60px 30px;
+            gap: 20px;
+            border-radius: 20px;
+            h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 1px solid var(--CAROB-70);                
+                padding-bottom: 10px;
+            }
+            .card-container{
+                flex-direction: column;
+                gap: 20px;
+                .card{
+                    gap: 20px;
+                }
+
+                .line{
+                    height: 1px;
+                    width: calc(100dvw - 60px);
+                }
+            }
+        }
     }
 }
