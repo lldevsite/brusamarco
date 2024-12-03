@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    :root{
+        --paddingmobile: 30px;
+    }
+
     .main-container {
         gap: 100px;
         padding-bottom: 120px;
@@ -15,11 +19,11 @@
         gap: 20px;
 
         h1 {
-            padding: 0 30px;
+            padding: 0 var(--paddingmobile);
             text-align: left;
         }
         p {
-            padding: 0 30px 30px 30px;
+            padding: 0 var(--paddingmobile) 30px var(--paddingmobile);
             text-align: justify;
         }
 
@@ -29,7 +33,7 @@
     }
 
     .price-container {
-        padding: 30px 30px;
+        padding: 30px var(--paddingmobile);
         gap: 40px;
     }
 
@@ -40,7 +44,7 @@
     }
 
     .studio-section {
-        padding: 40px 30px;
+        padding: 40px var(--paddingmobile);
         padding-bottom: 80px;
     }
     .studio-container {
@@ -75,7 +79,7 @@
 
     .description-section {
         flex-direction: column;
-        padding: 80px 30px;
+        padding: 80px var(--paddingmobile);
         gap: 30px;
     }
 
@@ -88,7 +92,7 @@
     }
 
     .social-section {
-        padding: 60px 30px;
+        padding: 60px var(--paddingmobile);
         background-image: url('../images/sfondo_social_mobile.png');
 
         .social-container {
@@ -135,9 +139,10 @@
     }
 
     .collaboration-section{
-        padding: 60px 30px;
+        padding: 60px var(--paddingmobile);
 
         .collaboration-container{
+            padding: 0;
             
             .collaboration-card{
                 padding: 20px 30px;
@@ -169,4 +174,12 @@
             padding-top: 10px;
         }
     }
+}
+
+@media (min-width:426px) and (max-width: 768px){
+
+    :root{
+        --paddingmobile: 50px;
+    }
+
 }
