@@ -88,33 +88,36 @@
     }
 
     .social-section {
-        padding: 0;
-        background-image: none;
-        /* background-color: var(--PISTACHE); */
+        padding: 60px 30px;
+        background-image: url('../images/sfondo_social_mobile.png');
+
         .social-container {
-            padding: 60px 0;
-            gap: 20px;
-            border-radius: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            padding: 50px 0;
+            gap: 50px;
+            border-radius: 12px;
+            width: 100%;
+
             h1 {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                /* border-bottom: 1px solid var(--CAROB-70); */
-                padding-bottom: 20px;
             }
+
             .card-container {
                 flex-direction: column;
-                gap: 60px;
+                gap: 40px;
+
                 .card {
-                    align-items: center;
-                    flex-direction: row-reverse;
-                    gap: 20px;
+                    padding: 0;
+                    flex-direction: column-reverse;
+                    gap: 5px;
                     p {
                         display: none;
                     }
                     h3 {
-                        display: none;
+                        font-size: 16px;
+                        order: -1;
+                        padding-top: 10px;
                     }
                     a {
                         display: flex;
@@ -124,7 +127,7 @@
                 }
                 .line {
                     height: 1px;
-                    width: 300px;
+                    width: 90px;
                     background-color: black;
                 }
             }
