@@ -133,4 +133,40 @@
             }
         }
     }
+
+    .collaboration-section{
+        padding: 60px 30px;
+
+        .collaboration-container{
+            
+            .collaboration-card{
+                padding: 20px 30px;
+                width: 280px;
+                height: 220px;
+                p{
+                    -webkit-line-clamp: 3;
+                }
+
+                button{
+                    width: 120px;
+                    height: 35px;
+                }
+            }
+        }
+
+    }
+
+    .contact-section{
+        .contact-container{
+            width: 100%;
+            padding: 0 30px;
+            box-sizing: border-box;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        iframe{
+            padding-top: 10px;
+        }
+    }
 }
