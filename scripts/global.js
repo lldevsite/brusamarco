@@ -5,7 +5,6 @@ window.addEventListener('load', () => {
     let oc = document.getElementById('toggle');
     let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
     let navbarLinks = document.getElementsByClassName('navbar-links')[0];
-    navbarLinks.style.display = 'none';
 
     mobileMenu.addEventListener('click', () => {
 
