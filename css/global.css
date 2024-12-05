@@ -6,10 +6,22 @@
     scroll-behavior: smooth;
 }
 
+
+
 html,
 body {
     position: relative;
     overflow-x: hidden;
+}
+
+html {
+    background: linear-gradient(180deg, rgba(219, 202, 182, 0.4) -95.83%, rgba(219, 202, 182, 0) 100.83%);
+    background-repeat: no-repeat;
+    background-size: 100% 100px; 
+}
+
+body{
+    max-width: 1800px;
 }
 
 h1 {
@@ -176,7 +188,7 @@ button {
 
 /* NAVBAR */
 .navbar-section {
-    background: linear-gradient(180deg, rgba(219, 202, 182, 0.4) -95.83%, rgba(219, 202, 182, 0) 100.83%);
+    /* background: linear-gradient(180deg, rgba(219, 202, 182, 0.4) -95.83%, rgba(219, 202, 182, 0) 100.83%); */
     color: var(--CAROB);
     padding: 0 60px;
     height: 95px;

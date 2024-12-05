@@ -38,6 +38,7 @@
 }
 
 .price-card {
+    width: 200px;
     gap: 10px;
 }
 
@@ -51,6 +52,7 @@
 .studio-section {
     background: var(--ALMOND);
     padding: 40px 140px;
+    padding-bottom: 60px;
     padding-bottom: 80px;
     gap: 40px;
 
@@ -60,7 +62,7 @@
 }
 
 .studio-container {
-    height: 420px;
+    min-height: 420px;
 }
 
 /* .studio-img {
@@ -83,8 +85,10 @@
 .studio-img {
     position: relative;
     width: 50%;
+    height: 420px;
 
     img {
+        object-fit: cover;
         position: absolute;
         height: 180px;
     }
@@ -108,6 +112,7 @@
 }
 
 .studio-text {
+    /* overflow: hidden; */
     box-sizing: border-box;
     width: 50%;
     padding: 0 30px;

@@ -1,6 +1,47 @@
-@media (max-width: 768px) {
+@media (max-width:1200px){
+
+    .studio-section{
+        padding: 40px 80px;
+    }
+
+    .collaboration-section{
+        .collaboration-container{
+         padding: 0;
+         .collaboration-card{
+            width: 320px;
+         }
+        }       
+    }
+
+    .price-section{
+        padding: 40px 100px 100px 100px;
+    }
+
+    .social-section{
+        .social-container{
+            .card-container{
+                .card{
+                    padding: 0 20px;
+                }
+            }
+            .line{
+                display: none;
+            }
+        }
+
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
     :root{
         --paddingmobile: 30px;
+    }
+
+    .main-section{
+        padding: 0 30px;
     }
 
     .main-container {
@@ -54,13 +95,14 @@
     }
     .studio-img {
         width: 100%;
-        height: 180px;
+        height: 40vw;
 
         /* img{
             height: 100px;
         } */
 
         img:nth-child(1) {
+            height: 100%;
             width: 100%;
             transform: translate(0, 0);
         }
@@ -176,7 +218,7 @@
     }
 }
 
-@media (min-width:426px) and (max-width: 768px){
+@media (min-width:426px) and (max-width: 1000px){
 
     :root{
         --paddingmobile: 50px;
