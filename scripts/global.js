@@ -1,6 +1,4 @@
 window.addEventListener('load', () => {
-
-    console.log('load doc')
     // opne/close
     let oc = document.getElementById('toggle');
     let mobileMenu = document.getElementsByClassName('mobile-menu')[0];

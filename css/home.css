@@ -161,6 +161,9 @@
             .card {
                 padding: 0 50px;
                 gap: 40px;
+                p{
+                    min-height: 96px;
+                }
             }
 
             .line {
