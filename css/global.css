@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     /* border: 1px solid lime; */
+    scroll-behavior: smooth;
 }
 
 html,
