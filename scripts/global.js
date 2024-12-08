@@ -1,4 +1,10 @@
-window.addEventListener('load', () => {
+if (document.readyState === "complete") {
+    loadHandler();
+} else {
+    window.addEventListener('load', loadHandler);
+}
+
+function loadHandler() {
     // opne/close
     let oc = document.getElementById('toggle');
     let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
@@ -29,4 +35,4 @@ window.addEventListener('load', () => {
         }
     });
 
-});
+};
