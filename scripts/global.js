@@ -14,13 +14,13 @@ window.addEventListener('load', () => {
             navbarLinks.style.display = 'flex';
             void navbarLinks.offsetWidth;
             navbarLinks.classList.add('fadein');
-            oc.src = './svg/cross.svg';
+            oc.src = '../svg/cross.svg';
         }
         else {
             navbarLinks.classList.remove('fadein');
             void navbarLinks.offsetWidth;
             navbarLinks.classList.add('fadeout');
-            oc.src = './svg/hamburger.svg';
+            oc.src = '../svg/hamburger.svg';
             document.documentElement.style.overflowY = 'scroll';
             navbarLinks.addEventListener('animationend', function handleCloseMenu() {
                 navbarLinks.style.display = 'none';
