@@ -1,3 +1,4 @@
+void window.offsetWidth;
 window.addEventListener('load', () => {
     // opne/close
     let oc = document.getElementById('toggle');
