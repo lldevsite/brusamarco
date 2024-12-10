@@ -84,6 +84,12 @@
         width: 120px;
     }
 
+    .price-icon{
+        img{
+            width: 50px;
+        }
+    }
+
     .studio-section {
         padding: 40px var(--paddingmobile);
         padding-bottom: 80px;
