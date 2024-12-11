@@ -73,7 +73,7 @@
     padding: 30px;
     border-bottom: 5px;
     img{
-        width: 60px;
+        width: 50px;
     }
 }
 
@@ -256,8 +256,13 @@
             gap: 20px;
             background-color: white;
 
-            img {
+            .collaboration-logo{
                 height: 32px;
+            }
+
+            img {
+                max-height: 32px;
+                max-width: 100%;
             }
         }
 
