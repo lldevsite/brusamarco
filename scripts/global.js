@@ -1,6 +1,8 @@
 
 window.addEventListener('load', () => {
 
+    document.body.classList.add('loaded');
+
     setTimeout(() => {
         // opne/close
         let oc = document.getElementById('toggle');
