@@ -155,6 +155,9 @@
     .foto {
         width: 50%;
         padding: 0 20px;
+        img{
+            border-radius: 100%;
+        }
     }
 
 }
@@ -162,10 +165,6 @@
 .description-text {
     width: 50%;
     padding: 0 100px 0 0;
-
-    p {
-        padding: 0 0 0 20px;
-    }
 
 }
 
@@ -248,7 +247,7 @@
             position: relative;
             box-sizing: border-box;
             width: 370px;
-            height: 280px;
+            height: 140px;
             padding: 30px 40px;
             margin: 0 5px;
             border: 1px solid var(--CAROB);
